@@ -1,3 +1,25 @@
+nav, nav ul{
+    display: flex;
+    
+}
+
+ul{
+    list-style-type: none;;
+}
+
+nav h1, nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    margin-left: 25px;
+}
 nav{
-    display: inline-block;
+    position: fixed;
+}
+
+#team-container{
+    display: inline-flex;
+    margin-top: 200px;
 }
